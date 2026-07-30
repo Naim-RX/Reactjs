@@ -1,0 +1,18 @@
+.card img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card{
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 2px;
+    text-align: center;
+    width: 420px;
+    float: left;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+}
